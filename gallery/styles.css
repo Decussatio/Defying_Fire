@@ -95,6 +95,41 @@ main {
     }
 }
 
+/* insert footer */
+
+.footer-nav li {
+    list-style: none;
+}
+
+.footer-nav a:hover {
+    text-decoration: none;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #383838;
+}
+
+.footer-nav > div {
+    max-width: 160px;
+}
+
+.footer-nav-links p {
+    font-size: 20px;
+    color: #FF914C;
+}
+
+.footer-links p {
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.footer-links img {
+    margin-bottom: 10px;
+}
+
 /* gallery */
 
 main figure {
