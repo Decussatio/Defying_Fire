@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    padding: 0;
+}
+
+ul, li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    background-color: #383838;
+}
+
+/* inserted header */
+
+.header-nav li {
+    list-style: none;
+}
+
+.header-nav a:hover {
+    text-decoration: none;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    height: 175px;
+    background-color: #383838;
+    width: 100vw;
+}
+
+.nav-links {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.nav-links-list {
+    width: 75%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 64%;
+    margin-right: 35px;
+}
+
+.header-nav p {
+    color: #FF914C;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.nav-links p {
+    font-size: 24px;
+    width: fit-content;
+}
+
+.header-nav figure {
+    margin: 0, auto;
+}
+
+@media (max-width: 992px) {
+    .header-nav {
+        display: block;
+        height: 300px;
+    }
+
+    .nav-links {
+        justify-content: center;
+    }
+
+    .nav-links p {
+        font-size: 20px;
+    }
+
+    .nav-links-list {
+        margin-right: 0px;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    figure {
+        margin-top: 0px;
+    }
+}
+
+/* gallery */
+
+main figure {
+    margin: 0;
+    padding: 0;
+}
+
+main img {
+    width: 100vw;
+    height: auto;
+}
+
+.gallery-text-box {
+    position: absolute;
+    height: 200px;
+    width: 90%;
+    background-color: #383838;
+    transform: translate(0, -50%);
+    left: 5%;
+}
+
+.gallery-text-box h1, .gallery-text-box p {
+    color: #FF914C;
+    font-family: 'Hammersmith One', sans-serif;
+    margin: 0;
+}
+
+.gallery-text-box h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+.gallery-text-box p {
+    font-size: 18px;
+    text-align: left;
+}
+
+.gallery-text-box > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: inherit;
+    margin: 0 5%;
+}
+
+@media (max-width: 992px) {
+    .gallery-text-box h1 {
+        font-size: 20px;
+    }
+
+    .gallery-text-box p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .gallery-text-box h1 {
+        font-size: 18px;
+    }
+
+    .gallery-text-box p {
+        font-size: 14px;
+    }
+}
