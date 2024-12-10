@@ -115,6 +115,11 @@ main {
     max-width: 160px;
 }
 
+.footer-nav p {
+    color: #FF914C;
+    font-family: 'Hammersmith One', sans-serif;
+}
+
 .footer-nav-links p {
     font-size: 20px;
     color: #FF914C;
