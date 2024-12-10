@@ -169,7 +169,7 @@ a:hover {
 }
 
 @media (max-width: 768px) {
-    body {
+    main {
         padding: 20px 40px;
     }
 }
